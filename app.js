@@ -22,6 +22,6 @@ try {
     res.send('HOLA MUNDO')
 }) */
 
-app.listen(8000, () => {
+app.listen(process.env.PORT | PORT, () => {
   console.log("Server UP running in http://localhost:8000/");
 });
